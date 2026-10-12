@@ -1,0 +1,3 @@
+/home/armin/projects/AQCanvas/build/CMakeFiles/AQCanvas.dir
+/home/armin/projects/AQCanvas/build/CMakeFiles/edit_cache.dir
+/home/armin/projects/AQCanvas/build/CMakeFiles/rebuild_cache.dir

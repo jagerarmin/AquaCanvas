@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/armin/projects/AQCanvas/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
