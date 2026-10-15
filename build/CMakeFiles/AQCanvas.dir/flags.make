@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/armin/projects/AQCanvas/protocols
 
 CXX_FLAGS = -std=gnu++23 -Wall -Wextra -Wpedantic
 
