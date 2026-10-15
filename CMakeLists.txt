@@ -23,6 +23,7 @@ add_executable(AQCanvas main.cpp)
 target_include_directories(AQCanvas PRIVATE 
     ${LUA_INCLUDE_DIR}
     ${WAYLAND_INCLUDE_DIR}
+    ${CMAKE_CURRENT_SOURCE_DIR}/protocols
 )
 
 target_link_libraries(AQCanvas PRIVATE 

@@ -25,6 +25,10 @@ AQCanvas: /usr/lib/Scrt1.o \
   CMakeFiles/AQCanvas.dir/main.cpp.o
 
 CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
+  /home/armin/projects/AQCanvas/protocols/layer-shell.code \
+  /home/armin/projects/AQCanvas/protocols/layer-shell.h \
+  /home/armin/projects/AQCanvas/protocols/xdg-shell.code \
+  /home/armin/projects/AQCanvas/protocols/xdg-shell.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -37,20 +41,29 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/cloexec.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
+  /usr/include/bits/fcntl-linux.h \
+  /usr/include/bits/fcntl.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/flt-eval-method.h \
   /usr/include/bits/fp-fast.h \
   /usr/include/bits/fp-logb.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
@@ -58,12 +71,24 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mman-linux.h \
+  /usr/include/bits/mman-map-flags-generic.h \
+  /usr/include/bits/mman-shared.h \
+  /usr/include/bits/mman.h \
+  /usr/include/bits/mman_ext.h \
+  /usr/include/bits/openat2.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/sched.h \
   /usr/include/bits/select.h \
   /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
+  /usr/include/bits/statx-generic.h \
+  /usr/include/bits/statx.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
@@ -71,6 +96,7 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -93,8 +119,11 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_iovec.h \
   /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_statx.h \
+  /usr/include/bits/types/struct_statx_timestamp.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
   /usr/include/bits/types/struct_tm.h \
@@ -103,16 +132,21 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/16/array \
   /usr/include/c++/16/backward/binders.h \
   /usr/include/c++/16/bit \
   /usr/include/c++/16/bits/algorithmfwd.h \
+  /usr/include/c++/16/bits/align.h \
   /usr/include/c++/16/bits/alloc_traits.h \
+  /usr/include/c++/16/bits/allocated_ptr.h \
   /usr/include/c++/16/bits/allocator.h \
   /usr/include/c++/16/bits/basic_ios.h \
   /usr/include/c++/16/bits/basic_ios.tcc \
@@ -120,6 +154,7 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/c++/16/bits/basic_string.tcc \
   /usr/include/c++/16/bits/char_traits.h \
   /usr/include/c++/16/bits/charconv.h \
+  /usr/include/c++/16/bits/chrono.h \
   /usr/include/c++/16/bits/codecvt.h \
   /usr/include/c++/16/bits/concept_check.h \
   /usr/include/c++/16/bits/cpp_type_traits.h \
@@ -131,6 +166,10 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/c++/16/bits/exception_defines.h \
   /usr/include/c++/16/bits/exception_ptr.h \
   /usr/include/c++/16/bits/formatfwd.h \
+  /usr/include/c++/16/bits/fs_dir.h \
+  /usr/include/c++/16/bits/fs_fwd.h \
+  /usr/include/c++/16/bits/fs_ops.h \
+  /usr/include/c++/16/bits/fs_path.h \
   /usr/include/c++/16/bits/functexcept.h \
   /usr/include/c++/16/bits/functional_hash.h \
   /usr/include/c++/16/bits/hash_bytes.h \
@@ -159,16 +198,22 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/c++/16/bits/ostream.tcc \
   /usr/include/c++/16/bits/ostream_insert.h \
   /usr/include/c++/16/bits/ostream_print.h \
+  /usr/include/c++/16/bits/parse_numbers.h \
   /usr/include/c++/16/bits/postypes.h \
   /usr/include/c++/16/bits/predefined_ops.h \
   /usr/include/c++/16/bits/ptr_traits.h \
+  /usr/include/c++/16/bits/quoted_string.h \
   /usr/include/c++/16/bits/range_access.h \
   /usr/include/c++/16/bits/ranges_algobase.h \
   /usr/include/c++/16/bits/ranges_base.h \
   /usr/include/c++/16/bits/ranges_cmp.h \
   /usr/include/c++/16/bits/ranges_util.h \
+  /usr/include/c++/16/bits/refwrap.h \
   /usr/include/c++/16/bits/requires_hosted.h \
+  /usr/include/c++/16/bits/shared_ptr.h \
+  /usr/include/c++/16/bits/shared_ptr_base.h \
   /usr/include/c++/16/bits/specfun.h \
+  /usr/include/c++/16/bits/sstream.tcc \
   /usr/include/c++/16/bits/std_abs.h \
   /usr/include/c++/16/bits/stdexcept_except.h \
   /usr/include/c++/16/bits/stdexcept_throw.h \
@@ -183,6 +228,7 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/c++/16/bits/stl_iterator_base_types.h \
   /usr/include/c++/16/bits/stl_pair.h \
   /usr/include/c++/16/bits/stl_tempbuf.h \
+  /usr/include/c++/16/bits/stl_uninitialized.h \
   /usr/include/c++/16/bits/streambuf.tcc \
   /usr/include/c++/16/bits/streambuf_iterator.h \
   /usr/include/c++/16/bits/string_view.tcc \
@@ -190,6 +236,7 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/c++/16/bits/unicode-data.h \
   /usr/include/c++/16/bits/unicode.h \
   /usr/include/c++/16/bits/uniform_int_dist.h \
+  /usr/include/c++/16/bits/unique_ptr.h \
   /usr/include/c++/16/bits/uses_allocator.h \
   /usr/include/c++/16/bits/uses_allocator_args.h \
   /usr/include/c++/16/bits/utility.h \
@@ -199,25 +246,31 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/c++/16/charconv \
   /usr/include/c++/16/clocale \
   /usr/include/c++/16/cmath \
+  /usr/include/c++/16/codecvt \
   /usr/include/c++/16/compare \
   /usr/include/c++/16/concepts \
   /usr/include/c++/16/cstddef \
   /usr/include/c++/16/cstdint \
   /usr/include/c++/16/cstdio \
   /usr/include/c++/16/cstdlib \
+  /usr/include/c++/16/cstring \
   /usr/include/c++/16/ctime \
   /usr/include/c++/16/cwchar \
   /usr/include/c++/16/cwctype \
   /usr/include/c++/16/debug/assertions.h \
   /usr/include/c++/16/debug/debug.h \
   /usr/include/c++/16/exception \
+  /usr/include/c++/16/ext/aligned_buffer.h \
   /usr/include/c++/16/ext/alloc_traits.h \
   /usr/include/c++/16/ext/atomicity.h \
+  /usr/include/c++/16/ext/concurrence.h \
   /usr/include/c++/16/ext/numeric_traits.h \
   /usr/include/c++/16/ext/string_conversions.h \
   /usr/include/c++/16/ext/type_traits.h \
+  /usr/include/c++/16/filesystem \
   /usr/include/c++/16/format \
   /usr/include/c++/16/initializer_list \
+  /usr/include/c++/16/iomanip \
   /usr/include/c++/16/ios \
   /usr/include/c++/16/iosfwd \
   /usr/include/c++/16/iostream \
@@ -230,8 +283,11 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/c++/16/optional \
   /usr/include/c++/16/ostream \
   /usr/include/c++/16/pstl/pstl_config.h \
+  /usr/include/c++/16/ratio \
   /usr/include/c++/16/span \
+  /usr/include/c++/16/sstream \
   /usr/include/c++/16/stdexcept \
+  /usr/include/c++/16/stdlib.h \
   /usr/include/c++/16/streambuf \
   /usr/include/c++/16/string \
   /usr/include/c++/16/string_view \
@@ -267,30 +323,43 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
+  /usr/include/fcntl.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
   /usr/include/inttypes.h \
   /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/linux/limits.h \
+  /usr/include/linux/openat2.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
+  /usr/include/linux/stat.h \
   /usr/include/linux/stddef.h \
   /usr/include/linux/types.h \
   /usr/include/locale.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/stb/stb_image.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
+  /usr/include/sys/mman.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/stat.h \
   /usr/include/sys/types.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wayland-client-core.h \
   /usr/include/wayland-client-protocol.h \
   /usr/include/wayland-client.h \
@@ -298,32 +367,49 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
   /usr/include/wayland-version.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/mmintrin.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/syslimits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/xmmintrin.h
 
 
-/usr/include/wchar.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/syslimits.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/emmintrin.h:
 
 /usr/include/wayland-version.h:
 
-/usr/include/wayland-util.h:
-
 /usr/include/wayland-client.h:
-
-/usr/include/wayland-client-protocol.h:
 
 /usr/include/wayland-client-core.h:
 
+/usr/include/unistd.h:
+
 /usr/include/time.h:
+
+/usr/include/sys/stat.h:
 
 /usr/include/sys/single_threaded.h:
 
-/usr/include/sys/select.h:
+/usr/include/sys/mman.h:
 
 /usr/include/sys/cdefs.h:
 
+/usr/include/string.h:
+
 /usr/include/stdlib.h:
+
+/usr/include/stb/stb_image.h:
 
 /usr/include/math.h:
 
@@ -333,13 +419,21 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
 
 /usr/include/linux/stddef.h:
 
-/usr/include/inttypes.h:
+/usr/include/linux/openat2.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/wayland-client-protocol.h:
+
+/usr/include/linux/close_range.h:
+
+/usr/include/limits.h:
 
 /usr/include/gnu/stubs-64.h:
 
 /usr/include/features-time64.h:
 
-/usr/include/errno.h:
+/usr/include/fcntl.h:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/time_members.h:
 
@@ -351,93 +445,119 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr.h:
 
-/usr/include/stdint.h:
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/error_constants.h:
 
-/usr/include/endian.h:
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
-/usr/include/c++/16/bits/exception.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h:
 
-/usr/include/bits/pthreadtypes-arch.h:
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++locale.h:
 
-/usr/include/c++/16/bits/hash_bytes.h:
+/usr/include/c++/16/typeinfo:
 
-/usr/include/c++/16/bits/utility.h:
+/usr/include/c++/16/type_traits:
 
-/usr/include/bits/types/struct_sched_param.h:
+/usr/include/c++/16/tr1/special_function_util.h:
 
-/usr/include/linux/errno.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/mm_malloc.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
+/usr/include/c++/16/tr1/poly_laguerre.tcc:
 
-/usr/include/c++/16/bits/concept_check.h:
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_base.h:
 
-/usr/include/c++/16/bits/basic_string.tcc:
+/usr/include/c++/16/tr1/ell_integral.tcc:
 
-/usr/include/c++/16/bits/basic_string.h:
+/usr/include/c++/16/tr1/beta_function.tcc:
 
-/usr/include/c++/16/ios:
+/usr/include/strings.h:
 
-/usr/include/c++/16/bits/basic_ios.h:
+/usr/include/c++/16/system_error:
 
-/usr/include/c++/16/bits/allocator.h:
+/usr/include/c++/16/string:
 
-/usr/include/bits/time64.h:
+/usr/include/c++/16/streambuf:
 
-/usr/include/bits/stdlib-float.h:
-
-/usr/include/c++/16/bit:
-
-/usr/include/c++/16/bits/alloc_traits.h:
-
-/usr/include/c++/16/backward/binders.h:
+/usr/include/c++/16/sstream:
 
 /usr/include/c++/16/span:
 
+/usr/include/c++/16/ratio:
+
+/usr/include/c++/16/numbers:
+
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/include/c++/16/math.h:
+
+/usr/include/c++/16/locale:
+
+/usr/include/c++/16/limits:
+
 /usr/include/c++/16/istream:
 
-/usr/include/c++/16/bits/cpp_type_traits.h:
+/usr/include/c++/16/iostream:
 
-/usr/include/bits/wctype-wchar.h:
+/usr/include/c++/16/ios:
 
-/usr/include/bits/timesize.h:
+/usr/include/c++/16/tr1/riemann_zeta.tcc:
 
-/usr/include/c++/16/string:
+/usr/include/c++/16/initializer_list:
+
+/usr/include/c++/16/filesystem:
+
+/usr/include/c++/16/ext/concurrence.h:
+
+/usr/include/c++/16/ext/alloc_traits.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/c++/16/ext/aligned_buffer.h:
+
+/usr/include/c++/16/exception:
 
 /usr/include/bits/types/struct_tm.h:
 
 /usr/include/bits/types/struct_timespec.h:
 
-/usr/include/bits/waitflags.h:
+/usr/include/wayland-util.h:
+
+/usr/include/c++/16/codecvt:
+
+/usr/include/bits/types/struct_statx_timestamp.h:
+
+/home/armin/projects/AQCanvas/protocols/layer-shell.code:
 
 /usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/16/iomanip:
 
 /usr/include/bits/struct_rwlock.h:
 
 /usr/include/bits/types/mbstate_t.h:
 
-/usr/include/bits/types/locale_t.h:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/16/bits/stl_tempbuf.h:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/bits/mathcalls.h:
-
-/usr/include/c++/16/bits/char_traits.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
 /usr/include/bits/types/__locale_t.h:
 
-/usr/include/linux/posix_types.h:
+/usr/include/c++/16/string_view:
 
-/usr/include/bits/types/FILE.h:
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/bits/time64.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/limits.h:
+
+/usr/include/c++/16/bits/allocator.h:
+
+/usr/include/c++/16/ext/type_traits.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/struct_stat.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/c++/16/bits/localefwd.h:
 
 /usr/include/c++/16/bits/istream.tcc:
 
@@ -445,19 +565,27 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
 
 /usr/include/c++/16/bits/locale_classes.tcc:
 
-/usr/include/bits/stdint-least.h:
+/usr/include/bits/types/__mbstate_t.h:
 
-/usr/include/bits/waitstatus.h:
+/usr/include/bits/types/clock_t.h:
 
-/usr/include/bits/wchar.h:
+/usr/include/bits/mathcalls.h:
 
-/usr/include/bits/types/struct___jmp_buf_tag.h:
+/usr/include/bits/statx-generic.h:
+
+/usr/include/linux/stat.h:
 
 /usr/lib/liblua5.5.so:
 
-/usr/include/bits/select.h:
+/usr/include/c++/16/bits/ostream.tcc:
 
-/usr/include/c++/16/streambuf:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
+
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/bits/select.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
@@ -473,59 +601,131 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
 
 /usr/include/c++/16/bits/memoryfwd.h:
 
-/usr/include/c++/16/bits/stl_construct.h:
+/usr/include/bits/pthreadtypes-arch.h:
 
-/usr/include/asm-generic/int-ll64.h:
+/usr/include/stdint.h:
 
-/usr/include/asm-generic/errno.h:
+/usr/include/endian.h:
 
-/usr/include/bits/fp-logb.h:
+/usr/include/c++/16/bits/exception.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/c++/16/tr1/poly_hermite.tcc:
+
+/usr/include/bits/types/error_t.h:
+
+/usr/include/c++/16/bits/locale_facets_nonio.h:
+
+/usr/include/bits/mman.h:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/16/bits/stl_tempbuf.h:
+
+/usr/include/bits/mman-shared.h:
+
+/usr/include/c++/16/bits/streambuf_iterator.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/bits/mman-map-flags-generic.h:
+
+/usr/include/bits/types/struct_sched_param.h:
+
+/usr/include/linux/errno.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
+
+/usr/include/bits/mman-linux.h:
 
 /usr/include/alloca.h:
 
-/usr/include/bits/timex.h:
+/usr/include/bits/types/struct_statx.h:
 
-/usr/include/c++/16/numbers:
+/usr/include/bits/types/timer_t.h:
+
+/usr/lib/Scrt1.o:
+
+/usr/include/c++/16/bits/ostream_insert.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/bits/long-double.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/c++/16/bits/iterator_concepts.h:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/bits/posix_opt.h:
+
+/home/armin/projects/AQCanvas/protocols/xdg-shell.code:
+
+/usr/include/linux/falloc.h:
+
+/usr/include/bits/unistd_ext.h:
+
+/usr/include/bits/timex.h:
 
 /usr/lib/libm.so:
 
 /usr/lib/libmvec.so.1:
 
-/usr/include/c++/16/bits/unicode.h:
+/home/armin/projects/AQCanvas/protocols/layer-shell.h:
 
-/usr/lib/libm.so.6:
+/usr/include/c++/16/cstring:
 
 /usr/lib/ld-linux-x86-64.so.2:
 
-/usr/include/c++/16/locale:
+/usr/include/assert.h:
 
-/usr/include/asm/posix_types_64.h:
+/usr/include/bits/stat.h:
 
-/usr/include/c++/16/bits/exception_ptr.h:
+/usr/include/c++/16/bits/specfun.h:
 
-/usr/include/c++/16/system_error:
+/usr/include/bits/mathcalls-helper-functions.h:
 
-/usr/include/bits/time.h:
+/usr/include/c++/16/bits/ptr_traits.h:
 
-/usr/include/asm/posix_types.h:
+/usr/include/c++/16/bits/quoted_string.h:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/bits/fcntl-linux.h:
+
+/usr/include/c++/16/bits/unique_ptr.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o:
+
+/usr/include/c++/16/cstdio:
+
+/home/armin/projects/AQCanvas/protocols/xdg-shell.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/xmmintrin.h:
 
 /usr/lib/crti.o:
 
 /usr/include/bits/typesizes.h:
 
-/usr/include/bits/types/time_t.h:
-
-/usr/include/c++/16/bits/localefwd.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
-
-/usr/include/c++/16/bits/ostream.tcc:
-
-/usr/include/c++/16/bits/ptr_traits.h:
-
 /usr/include/bits/iscanonical.h:
 
 /usr/include/c++/16/bits/ios_base.h:
+
+/usr/include/bits/cloexec.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/getopt_posix.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h:
 
@@ -543,15 +743,15 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
 
 /usr/include/c++/16/charconv:
 
-/usr/include/gnu/stubs.h:
+/usr/include/bits/stdint-least.h:
 
-/usr/include/c++/16/bits/std_abs.h:
+/usr/include/bits/mman_ext.h:
 
-/usr/include/c++/16/bits/cxxabi_forced.h:
-
-/usr/include/c++/16/cwctype:
+/usr/include/c++/16/bits/shared_ptr_base.h:
 
 /usr/include/bits/types/sigset_t.h:
+
+/usr/include/bits/confname.h:
 
 /usr/include/c++/16/bits/memory_resource.h:
 
@@ -559,45 +759,65 @@ CMakeFiles/AQCanvas.dir/main.cpp.o: /home/armin/projects/AQCanvas/main.cpp \
 
 /usr/include/bits/endianness.h:
 
-/usr/include/c++/16/bits/stl_heap.h:
-
-/usr/include/c++/16/bits/codecvt.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o:
-
-/usr/include/c++/16/cstdio:
-
-/usr/include/c++/16/clocale:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/16/bits/cxxabi_init_exception.h:
-
 /usr/include/bits/mathcalls-macros.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
-
-/usr/include/bits/types.h:
-
-/usr/lib/libc_nonshared.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
 
 /usr/include/c++/16/bits/new_except.h:
 
-/usr/include/bits/thread-shared-types.h:
+/usr/include/c++/16/tuple:
 
-/usr/include/c++/16/ext/type_traits.h:
+/usr/lib/libc.so.6:
+
+/usr/lib/libm.so.6:
+
+/usr/include/c++/16/tr1/legendre_function.tcc:
+
+/usr/lib/crtn.o:
 
 CMakeFiles/AQCanvas.dir/main.cpp.o:
 
 /usr/include/c++/16/bits/range_access.h:
 
+/usr/include/wchar.h:
+
+/usr/include/bits/posix1_lim.h:
+
 /usr/include/bits/pthreadtypes.h:
 
 /usr/lib/libc.so:
+
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
+
+/usr/include/c++/16/tr1/hypergeometric.tcc:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/include/c++/16/bits/basic_string.tcc:
+
+/usr/include/c++/16/clocale:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/bits/fp-logb.h:
+
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/usr/include/bits/statx.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/asm/posix_types.h:
+
+/usr/include/asm/posix_types_64.h:
+
+/usr/include/c++/16/bits/exception_ptr.h:
 
 /usr/include/c++/16/tr1/modified_bessel_func.tcc:
 
@@ -607,6 +827,8 @@ CMakeFiles/AQCanvas.dir/main.cpp.o:
 
 /usr/include/asm/bitsperlong.h:
 
+/usr/include/bits/environments.h:
+
 /usr/include/bits/types/struct_FILE.h:
 
 /usr/include/c++/16/bits/stdexcept_except.h:
@@ -615,17 +837,25 @@ CMakeFiles/AQCanvas.dir/main.cpp.o:
 
 /usr/include/bits/types/clockid_t.h:
 
+/usr/include/c++/16/stdlib.h:
+
 /usr/include/bits/byteswap.h:
 
 /usr/include/c++/16/bits/requires_hosted.h:
-
-/usr/include/bits/uintn-identity.h:
 
 /usr/include/bits/cpu-set.h:
 
 /usr/include/bits/errno.h:
 
 /usr/include/c++/16/cstdlib:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/waitstatus.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h:
 
@@ -637,33 +867,141 @@ CMakeFiles/AQCanvas.dir/main.cpp.o:
 
 /usr/include/c++/16/ctime:
 
-/usr/include/c++/16/bits/exception_defines.h:
+/usr/include/bits/fcntl.h:
 
-/usr/include/bits/long-double.h:
+/usr/include/c++/16/bit:
 
-/usr/include/bits/libc-header-start.h:
+/usr/include/c++/16/pstl/pstl_config.h:
+
+/usr/include/c++/16/ostream:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/c++/16/bits/fs_ops.h:
+
+/usr/include/c++/16/tr1/exp_integral.tcc:
+
+/usr/include/c++/16/bits/enable_special_members.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/bits/types.h:
+
+/usr/lib/libc_nonshared.a:
+
+/usr/include/bits/getopt_core.h:
+
+/usr/include/c++/16/new:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/bits/uintn-identity.h:
 
 /usr/include/bits/math-vector.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h:
+/usr/include/bits/uio_lim.h:
 
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++locale.h:
+/usr/include/bits/wctype-wchar.h:
 
-/usr/include/bits/types/timer_t.h:
+/usr/include/stdio.h:
 
-/usr/lib/Scrt1.o:
+/usr/include/c++/16/stdexcept:
 
-/usr/include/c++/16/bits/ostream_insert.h:
+/usr/include/bits/wordsize.h:
 
-/usr/include/bits/setjmp.h:
+/usr/include/c++/16/bits/stl_construct.h:
 
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h:
+/usr/include/bits/xopen_lim.h:
 
-/usr/include/bits/mathcalls-narrow.h:
+/usr/lib/libffi.so.8:
 
-/usr/include/bits/pthread_stack_min-dynamic.h:
+/usr/include/c++/16/bits/ranges_base.h:
+
+/usr/include/c++/16/bits/uses_allocator_args.h:
+
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/include/c++/16/array:
+
+/usr/include/c++/16/tr1/bessel_function.tcc:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/16/bits/algorithmfwd.h:
+
+/usr/include/c++/16/bits/unicode.h:
+
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/c++/16/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/16/bits/alloc_traits.h:
+
+/usr/include/c++/16/bits/allocated_ptr.h:
+
+/usr/include/c++/16/bits/basic_ios.h:
+
+/usr/include/c++/16/bits/fs_fwd.h:
+
+/usr/include/c++/16/bits/basic_string.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/c++/16/bits/char_traits.h:
+
+/usr/include/c++/16/ext/string_conversions.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/c++/16/bits/charconv.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/c++/16/bits/std_abs.h:
+
+/usr/include/c++/16/bits/cxxabi_forced.h:
+
+/usr/include/bits/openat2.h:
+
+/usr/include/c++/16/cwctype:
+
+/usr/include/inttypes.h:
+
+/usr/include/c++/16/bits/chrono.h:
+
+/usr/include/c++/16/bits/stl_heap.h:
+
+/usr/include/c++/16/bits/codecvt.h:
+
+/usr/include/c++/16/bits/concept_check.h:
+
+/usr/include/c++/16/bits/cpp_type_traits.h:
+
+/usr/include/c++/16/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/16/tr1/gamma.tcc:
+
+/usr/include/c++/16/bits/erase_if.h:
+
+/usr/include/c++/16/bits/hash_bytes.h:
+
+/usr/include/c++/16/bits/utility.h:
+
+/usr/include/c++/16/bits/exception_defines.h:
 
 /usr/include/c++/16/bits/formatfwd.h:
+
+/usr/include/c++/16/iosfwd:
+
+/usr/include/bits/types/__sigset_t.h:
+
+/usr/include/c++/16/bits/fs_dir.h:
+
+/usr/include/c++/16/backward/binders.h:
+
+/usr/include/c++/16/bits/fs_path.h:
+
+/usr/include/c++/16/bits/nested_exception.h:
 
 /usr/include/c++/16/bits/functexcept.h:
 
@@ -673,9 +1011,9 @@ CMakeFiles/AQCanvas.dir/main.cpp.o:
 
 /usr/include/c++/16/bits/invoke.h:
 
-/usr/include/c++/16/cctype:
+/usr/include/bits/types/struct_iovec.h:
 
-/usr/include/c++/16/bits/iterator_concepts.h:
+/usr/include/c++/16/cctype:
 
 /usr/include/c++/16/ext/atomicity.h:
 
@@ -685,41 +1023,25 @@ CMakeFiles/AQCanvas.dir/main.cpp.o:
 
 /usr/include/c++/16/bits/streambuf.tcc:
 
-/usr/include/bits/types/__sigset_t.h:
-
-/usr/include/c++/16/iosfwd:
-
 /usr/include/bits/struct_mutex.h:
 
 /usr/include/c++/16/bits/locale_facets.h:
 
 /usr/include/c++/16/bits/locale_facets.tcc:
 
-/usr/include/c++/16/bits/locale_facets_nonio.h:
-
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr-default.h:
-
-/usr/include/c++/16/bits/locale_facets_nonio.tcc:
-
 /usr/include/c++/16/bits/monostate.h:
 
+/usr/include/c++/16/format:
+
+/usr/include/c++/16/cstddef:
+
 /usr/include/c++/16/bits/move.h:
-
-/usr/include/c++/16/bits/nested_exception.h:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/c++/16/string_view:
 
 /usr/include/c++/16/bits/new_allocator.h:
 
 /usr/include/c++/16/bits/ostream_print.h:
 
-/usr/include/bits/types/struct_timeval.h:
-
-/usr/include/c++/16/ostream:
-
-/usr/include/c++/16/pstl/pstl_config.h:
+/usr/include/c++/16/bits/parse_numbers.h:
 
 /usr/include/c++/16/bits/postypes.h:
 
@@ -727,19 +1049,23 @@ CMakeFiles/AQCanvas.dir/main.cpp.o:
 
 /usr/include/c++/16/bits/ranges_algobase.h:
 
-/usr/lib/libffi.so.8:
-
-/usr/include/c++/16/bits/ranges_base.h:
-
-/usr/include/c++/16/bits/uses_allocator_args.h:
-
 /usr/include/c++/16/bits/ranges_cmp.h:
 
-/usr/include/bits/mathcalls-helper-functions.h:
+/usr/include/bits/mathcalls-narrow.h:
 
-/usr/include/c++/16/bits/specfun.h:
+/usr/include/c++/16/bits/refwrap.h:
+
+/usr/include/c++/16/bits/shared_ptr.h:
+
+/usr/include/c++/16/bits/stringfwd.h:
+
+/usr/include/c++/16/bits/sstream.tcc:
 
 /usr/include/c++/16/bits/stdexcept_throw.h:
+
+/usr/include/c++/16/optional:
+
+/usr/include/c++/16/bits/stl_algo.h:
 
 /usr/include/c++/16/bits/stl_iterator_base_funcs.h:
 
@@ -757,11 +1083,9 @@ CMakeFiles/AQCanvas.dir/main.cpp.o:
 
 /usr/include/c++/16/bits/stl_pair.h:
 
-/usr/include/c++/16/bits/streambuf_iterator.h:
+/usr/include/c++/16/bits/stl_uninitialized.h:
 
 /usr/include/c++/16/bits/string_view.tcc:
-
-/usr/include/c++/16/bits/stringfwd.h:
 
 /usr/include/bits/endian.h:
 
@@ -769,25 +1093,19 @@ CMakeFiles/AQCanvas.dir/main.cpp.o:
 
 /usr/include/c++/16/bits/uniform_int_dist.h:
 
-/usr/include/c++/16/iostream:
-
 /usr/include/asm-generic/posix_types.h:
 
 /usr/include/c++/16/bits/uses_allocator.h:
 
 /usr/include/c++/16/bits/version.h:
 
-/usr/include/c++/16/cmath:
+/usr/include/c++/16/bits/align.h:
 
-/usr/include/c++/16/limits:
+/usr/include/c++/16/cmath:
 
 /usr/include/pthread.h:
 
 /usr/include/c++/16/compare:
-
-/usr/lib/libc.so.6:
-
-/usr/include/c++/16/tuple:
 
 /usr/include/c++/16/bits/locale_classes.h:
 
@@ -803,100 +1121,10 @@ CMakeFiles/AQCanvas.dir/main.cpp.o:
 
 /usr/include/c++/16/cwchar:
 
-/usr/include/wctype.h:
-
-/usr/include/sched.h:
-
-/usr/include/bits/fp-fast.h:
-
-/usr/include/c++/16/tr1/hypergeometric.tcc:
-
-/usr/include/c++/16/type_traits:
-
 /usr/include/c++/16/debug/assertions.h:
-
-/usr/include/c++/16/ext/alloc_traits.h:
 
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/asm-generic/types.h:
 
 /usr/include/c++/16/debug/debug.h:
-
-/usr/include/c++/16/exception:
-
-/usr/include/c++/16/bits/charconv.h:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/c++/16/ext/string_conversions.h:
-
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_base.h:
-
-/usr/include/c++/16/tr1/ell_integral.tcc:
-
-/usr/include/c++/16/cstddef:
-
-/usr/include/c++/16/format:
-
-/usr/include/bits/types/wint_t.h:
-
-/usr/include/c++/16/new:
-
-/usr/include/c++/16/bits/stl_algo.h:
-
-/usr/include/c++/16/optional:
-
-/usr/include/stdio.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/c++/16/stdexcept:
-
-/usr/include/c++/16/bits/algorithmfwd.h:
-
-/usr/include/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/16/tr1/bessel_function.tcc:
-
-/usr/include/c++/16/tr1/beta_function.tcc:
-
-/usr/include/c++/16/bits/enable_special_members.h:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/c++/16/tr1/exp_integral.tcc:
-
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/error_constants.h:
-
-/usr/include/c++/16/bits/erase_if.h:
-
-/usr/include/c++/16/tr1/gamma.tcc:
-
-/usr/lib/crtn.o:
-
-/usr/include/c++/16/tr1/legendre_function.tcc:
-
-/usr/include/bits/types/error_t.h:
-
-/usr/include/c++/16/tr1/poly_hermite.tcc:
-
-/usr/include/c++/16/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/16/initializer_list:
-
-/usr/include/c++/16/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/16/tr1/special_function_util.h:
-
-/usr/include/c++/16/typeinfo:
-
-/usr/include/c++/16/array:
-
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/include/c++/16/math.h:
-
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_inline.h:
